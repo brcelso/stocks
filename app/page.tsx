@@ -1,8 +1,12 @@
+"use client"
+
 import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+
+import TradingViewWidget from "@/app/charts/page"
 
 export default function IndexPage() {
   return (
@@ -73,10 +77,14 @@ export default function IndexPage() {
         >
           WhatsApp
         </Link>
-        
-        </div>
-    </section>
     
+        </div>
+        <div className="overflow-hidden rounded-lg">
+          <TradingViewWidget />
+        </div>
+        
+    </section>
+
   )
 }
 
