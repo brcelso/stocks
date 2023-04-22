@@ -12,20 +12,25 @@ export default function IndexPage() {
   return (
 
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
+
       <div className="flex max-w-[980px] flex-col items-start gap-2">
+
       <Avatar>
       <AvatarImage src="https://github.com/brcelso.png" />
       <AvatarFallback>CN</AvatarFallback>
       </Avatar>
+
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
           Welcome to the New Age. <br className="hidden sm:inline" />
           Enjoy it!
         </h1>
+        
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
           This is my page.
           Just Code.
         </p>
       </div>
+
       <div className="flex gap-4">
         <Link
           href={siteConfig.links.docs}
@@ -52,6 +57,7 @@ export default function IndexPage() {
           Vercel
         </Link>
       </div>
+
       <div className="flex gap-4">
         <Link
           target="_blank"
@@ -79,6 +85,7 @@ export default function IndexPage() {
         </Link>
     
         </div>
+        
         <div className= "flex max-w-[980px] flex-col items-start gap-2 overflow-hidden rounded-lg">
           <TradingViewWidget />
         </div>
