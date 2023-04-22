@@ -19,7 +19,7 @@ export default function IndexPage() {
       </Avatar>
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
           Welcome to the New Age. <br className="hidden sm:inline" />
-          Enjoy it.
+          Enjoy it!
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground sm:text-xl">
           This is my page.
