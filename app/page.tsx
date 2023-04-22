@@ -79,7 +79,7 @@ export default function IndexPage() {
         </Link>
     
         </div>
-        <div className="overflow-hidden rounded-lg">
+        <div className= "flex max-w-[980px] flex-col items-start gap-2 overflow-hidden rounded-lg">
           <TradingViewWidget />
         </div>
         
