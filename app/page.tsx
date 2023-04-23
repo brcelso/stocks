@@ -68,7 +68,7 @@ export default function IndexPage() {
       </section>
       <section className="hidden md:block">
 
-      <div className="overflow-hidden rounded-lg">
+      <div className="overflow-hidden rounded-lg border bg-background shadow-xl">
           <TradingViewWidget />
         </div>
         {/*<div className="overflow-hidden rounded-lg border bg-background shadow-xl">
