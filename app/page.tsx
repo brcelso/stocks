@@ -15,6 +15,7 @@ import {
 //import { PromoVideo } from "@/components/promo-video"
 import { StyleSwitcher } from "@/components/style-switcher"
 //import DashboardPage from "@/app/examples/dashboard/page"
+import TradingViewWidget from "@/app/charts/page"
 
 export default function IndexPage() {
   return (
@@ -66,6 +67,10 @@ export default function IndexPage() {
         />
       </section>
       <section className="hidden md:block">
+
+      <div className="overflow-hidden rounded-lg">
+          <TradingViewWidget />
+        </div>
         {/*<div className="overflow-hidden rounded-lg border bg-background shadow-xl">
           <DashboardPage />
               </div>*/}
