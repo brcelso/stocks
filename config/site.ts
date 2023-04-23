@@ -1,3 +1,20 @@
+export const siteConfig = {
+  name: "shadcn/ui",
+  url: "https://ui.shadcn.com",
+  ogImage: "https://ui.shadcn.com/og.jpg",
+  description:
+    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+  links: {
+    twitter: "https://twitter.com/shadcn",
+    github: "https://github.com/shadcn/ui",
+  },
+}
+
+export type SiteConfig = typeof siteConfig
+
+
+
+
 {/*
 
 import { NavItem } from "@/types/nav"
@@ -37,6 +54,7 @@ export const siteConfig: SiteConfig = {
 }
 */}
 
+{/*}
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
@@ -50,6 +68,8 @@ export const siteConfig = {
     },
   ],
   links: {
+    url: "https://ui.shadcn.com",
+    ogImage: "https://ui.shadcn.com/og.jpg",
     twitter: "https://twitter.com/juca0514",
     github: "https://github.com/brcelso/celso-template",
     docs: "https://ui.shadcn.com",
@@ -58,3 +78,5 @@ export const siteConfig = {
     whatsapp: "https://wa.me/5511972509876"
   },
 }
+*/}
+
